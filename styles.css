@@ -1,0 +1,29 @@
+::before {
+    display: flex;
+}
+::after {
+    display: flex;
+}
+main {
+
+}
+
+body {
+
+}
+
+#searchContainer{
+    /* display: inline-flex; */
+    padding-bottom: 15px;
+    padding-left: 10px;
+    flex-wrap: wrap;
+    background-color: rgb(174, 198, 221);
+}
+
+#searchbutton {
+    
+}
+
+#searchvalues {
+
+}
