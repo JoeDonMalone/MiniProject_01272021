@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
+    
     <div id="searchContainer">
         <h1>Library of Congress Search Engine</h1>
         <input type="text">
-        <button id="searchbutton">Search</button>
         <select name="searchitems" id="searchvalues">
             <option value="maps">maps</option>
             <option value="audio">audio</option>
@@ -20,7 +20,19 @@
             <option value="notated-music">music</option>
             <option value="websites">websites</option>
         </select>
+        <button id="searchbutton">Search</button>
+        <button id="gobackbutton" style="display: none;">Go Back</button>
     </div> 
+
+    <div id="searchresults">
+        <h2 style="display: none;">Search Results</h2>
+        <span id=searchresult1 style="display: none;"></span>
+        <span id=searchresult2 style="display: none;"></span>
+        <span id=searchresult3 style="display: none;"></span>
+        <span id=searchresult4 style="display: none;"></span>
+        <span id=searchresult5 style="display: none;"></span>
+
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
